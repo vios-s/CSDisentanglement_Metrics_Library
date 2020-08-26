@@ -17,25 +17,25 @@ The repository is created by [Xiao Liu](https://github.com/)__\*__, [Spyridon Th
 
 To compute the distance correlation between extracted content tensors (C) and style vectors (S), *i.e.* **DC(C,S)**, run the following command:
 
-```python compute_DC.py```
+```python compute_DC.py --params```
 
 To compute the distance correlation between extracted content tensors (C) and input image tensors (I), *i.e.* **DC(I,C)**, run the following command:
 
-```python compute_DC.py```
+```python compute_DC.py --params```
 
 To compute the distance correlation between extracted style vectors (S) and input image tensors (I), *i.e.* **DC(I,S)**, run the following command:
 
-```python compute_DC.py```
+```python compute_DC.py --params```
 
 # Metric 2: Information Over Bias (IOB) - Informativeness
 
 To compute the information over bias between extracted content tensors (C) and input image tensors (I), *i.e.* **IOB(I,C)**, run the following command:
 
-```python compute_IOB.py```
+```python compute_IOB.py --params```
 
 To compute the information over bias between extracted style vectors (S) and input image tensors (I), *i.e.* **IOB(I,S)**, run the following command:
 
-```python compute_IOB.py```
+```python compute_IOB.py --params```
 
 
 # Citation
