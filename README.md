@@ -37,6 +37,12 @@ To compute the information over bias between extracted style vectors (S) and inp
 
 ```python compute_IOB.py --params```
 
+# Applications
+The two metrics have been tested on three popular models that exploit content-style disentanglement in the context of image-to-image translation, medical image segmentation, and pose estimation.
+
+* MUNIT - [official github implementation](https://github.com/NVlabs/MUNIT), [paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Xun_Huang_Multimodal_Unsupervised_Image-to-image_ECCV_2018_paper.pdf)
+* SDNet - [official github implementation](https://github.com/agis85/anatomy_modality_decomposition), [paper](https://arxiv.org/pdf/1903.09467.pdf)
+* PNet  - [official github implementation](https://github.com/CompVis/unsupervised-disentangling), [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Lorenz_Unsupervised_Part-Based_Disentangling_of_Object_Shape_and_Appearance_CVPR_2019_paper.pdf)
 
 # Citation
 If you find our metrics useful please cite the following paper:
