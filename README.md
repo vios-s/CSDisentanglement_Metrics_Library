@@ -15,7 +15,7 @@ The repository is created by [Xiao Liu](https://github.com/xxxliu95)__\*__, [Spy
 
 # Metric 1: Distance Correlation (DC) - Independence
 
-To compute the distance correlation between extracted:
+To compute the DC between extracted:
 
 * content tensors (C) and style vectors (S) - **DC(C,S)**
 * content tensors (C) and input image tensors (I) - **DC(I,C)**
@@ -27,7 +27,7 @@ run the following command:
 
 # Metric 2: Information Over Bias (IOB) - Informativeness
 
-To compute the information over bias between extracted:
+To compute the IOB between extracted:
 
 * content tensors (C) and input image tensors (I) - **IOB(I,C)**
 * style vectors (S) and input image tensors (I) - **IOB(I,S)**
