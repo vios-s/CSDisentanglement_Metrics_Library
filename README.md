@@ -33,6 +33,8 @@ The two metrics have been tested on three popular models that exploit content-st
 * SDNet - [official github implementation](https://github.com/agis85/anatomy_modality_decomposition), [paper](https://arxiv.org/pdf/1903.09467.pdf)
 * PNet  - [official github implementation](https://github.com/CompVis/unsupervised-disentangling), [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Lorenz_Unsupervised_Part-Based_Disentangling_of_Object_Shape_and_Appearance_CVPR_2019_paper.pdf)
 
+To test a pre-trained model with our metrics, the image and content tensors as well as the style vectors need to prepared. We provide an example script to show how to extract the tensors and vectors and further save them with required format in usage/example_extract.py.
+
 # Citation
 If you find our metrics useful please cite the following paper:
 ```
