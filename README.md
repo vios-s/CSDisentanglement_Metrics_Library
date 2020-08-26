@@ -5,8 +5,6 @@ This repository contains the official implementation of the Distance Correlation
 
 The repository is created by [Xiao Liu](https://github.com/)__\*__, [Spyridon Thermos](https://github.com/spthermo)__\*__, [Gabriele Valvano](https://github.com/gvalvano)__\*__, [Agisilaos Chartsias](https://github.com/agis85), [Alison O'Neil](https://www.eng.ed.ac.uk/about/people/dr-alison-oneil), and [Sotirios A. Tsaftaris](https://www.eng.ed.ac.uk/about/people/dr-sotirios-tsaftaris) in collaboration of [The University of Edinburgh](https://www.eng.ed.ac.uk/) and [Canon Medical Systems Europe](https://eu.medical.canon/).
 
-
-
 # System Requirements
 * Pytorch 1.5.1 or higher with GPU support
 * Python 3.7.2 or higher
@@ -17,8 +15,27 @@ The repository is created by [Xiao Liu](https://github.com/)__\*__, [Spyridon Th
 
 # Metric 1: Distance Correlation (DC) - Independence
 
+To compute the distance correlation between extracted content tensors (C) and style vectors (S), *i.e.* **DC(C,S)**, run the following command:
+
+```python compute_DC.py```
+
+To compute the distance correlation between extracted content tensors (C) and input image tensors (I), *i.e.* **DC(I,C)**, run the following command:
+
+```python compute_DC.py```
+
+To compute the distance correlation between extracted style vectors (S) and input image tensors (I), *i.e.* **DC(I,S)**, run the following command:
+
+```python compute_DC.py```
 
 # Metric 2: Information Over Bias (IOB) - Informativeness
+
+To compute the information over bias between extracted content tensors (C) and input image tensors (I), *i.e.* **IOB(I,C)**, run the following command:
+
+```python compute_IOB.py```
+
+To compute the information over bias between extracted style vectors (S) and input image tensors (I), *i.e.* **IOB(I,S)**, run the following command:
+
+```python compute_IOB.py```
 
 
 # Citation
