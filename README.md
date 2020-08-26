@@ -23,7 +23,7 @@ To compute the distance correlation between extracted content tensors (C) and st
 
 To compute the information over bias between extracted content tensors (C) and input image tensors (I), *i.e.* **IOB(I,C)**, and style vectors (S) and input image tensors (I), *i.e.* **IOB(I,S)**, run the following command:
 
-```python compute_IOB.py --root <directory of the extracted tensors & vectors> --gpu <# of gpu e.g. 0> --save <the name of the result file> ```
+```python compute_IOB.py --root <directory of the extracted tensors & vectors> --gpu <# of gpu *e.g.* 0> --save <the name of the result file> ```
 
 
 # Applications
