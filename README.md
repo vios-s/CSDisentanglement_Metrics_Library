@@ -7,12 +7,12 @@ This repository constists of the implementations of the Distance Correlation (DC
 * TensorFlow r2.0 or higher with GPU support
 * CUDA toolkit 10 or newer
 
-# Metric 1: Distance Correlation (DC) for measuring "independence"
+# Metric 1: Distance Correlation (DC) - Independence
 
 
 ## Evaluating independence with DC
 
-# Metric 2: Information Over Bias (IOB) for measuring "informativeness"
+# Metric 2: Information Over Bias (IOB) - Informativeness
 
 ## Evaluating informativeness with IOB
 
