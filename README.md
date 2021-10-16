@@ -1,5 +1,5 @@
 # Measuring the Biases and Effectiveness of Content-Style Disentanglement
-![overview](./assets/images/overview.png)
+![overview](./assets/images/overview.jpg)
 
 This repository contains the official implementation of the Distance Correlation (DC) and Information Over Bias (IOB) metrics proposed in [https://arxiv.org/abs/2008.12378](https://arxiv.org/abs/2008.12378) (**to be presented in BMVC 2021**). The two metrics can be used to assess the level of disentanglement between **spatial** content and **vector** style representations. Both metrics are ready to use with PyTorch implementation.
 
