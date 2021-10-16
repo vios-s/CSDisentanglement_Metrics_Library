@@ -1,9 +1,9 @@
-# Metrics for Exposing the Biases of Content-Style Disentanglement
+# Measuring the Biases and Effectiveness of Content-Style Disentanglement
 ![overview](./assets/images/overview.png)
 
-This repository contains the official implementation of the Distance Correlation (DC) and Information Over Bias (IOB) metrics proposed in [https://arxiv.org/abs/2008.12378]. The two metrics can be used to assess the level of disentanglement between **spatial** content and **vector** style representations. Both metrics are ready to use with PyTorch implementation.
+This repository contains the official implementation of the Distance Correlation (DC) and Information Over Bias (IOB) metrics proposed in [https://arxiv.org/abs/2008.12378](https://arxiv.org/abs/2008.12378) (**to be presented in BMVC 2021**). The two metrics can be used to assess the level of disentanglement between **spatial** content and **vector** style representations. Both metrics are ready to use with PyTorch implementation.
 
-The repository is created by [Xiao Liu](https://github.com/xxxliu95)__\*__, [Spyridon Thermos](https://github.com/spthermo)__\*__, [Gabriele Valvano](https://github.com/gvalvano)__\*__, [Agisilaos Chartsias](https://github.com/agis85), [Alison O'Neil](https://www.eng.ed.ac.uk/about/people/dr-alison-oneil), and [Sotirios A. Tsaftaris](https://www.eng.ed.ac.uk/about/people/dr-sotirios-tsaftaris), as a result of the collaboration between [The University of Edinburgh](https://www.eng.ed.ac.uk/) and [Canon Medical Systems Europe](https://eu.medical.canon/).
+The repository is created by [Xiao Liu](https://github.com/xxxliu95)__\*__, [Spyridon Thermos](https://github.com/spthermo)__\*__, [Gabriele Valvano](https://github.com/gvalvano)__\*__, [Agisilaos Chartsias](https://github.com/agis85), [Alison O'Neil](https://www.eng.ed.ac.uk/about/people/dr-alison-oneil), and [Sotirios A. Tsaftaris](https://www.eng.ed.ac.uk/about/people/dr-sotirios-tsaftaris), as a result of the collaboration between [The University of Edinburgh](https://www.eng.ed.ac.uk/) and [Canon Medical Systems Europe](https://eu.medical.canon/), supported by the [Royal Academy of Engineering](https://www.raeng.org.uk/).
 
 # System Requirements
 * Pytorch 1.5.1 or higher with GPU support
@@ -51,9 +51,9 @@ If you find our metrics useful please cite the following paper:
 ```
 @inproceedings{liu2020metrics,
   author       = "Xiao Liu and Spyridon Thermos and Gabriele Valvano and Agisilaos Chartsias and Alison O'Neil and Sotirios A. Tsaftaris",
-  title        = "Metrics for Exposing the Biases of Content-Style Disentanglement",
-  booktitle    = "arxiv",
-  year         = "2020"
+  title        = "Measuring the Biases and Effectiveness of Content-Style Disentanglement",
+  booktitle    = "Proc. of the British Machine Vision Conference (BMVC)",
+  year         = "2021"
 }
 ```
 
